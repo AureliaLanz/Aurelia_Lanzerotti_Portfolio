@@ -1,0 +1,48 @@
+.project-card {
+  display: grid;
+  gap: var(--space-3);
+  padding: var(--space-5);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-medium);
+  background: var(--color-surface);
+
+  & > .project-card-header {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: var(--space-4);
+
+    & > .project-card-title {
+      margin: 0;
+      font-size: var(--font-size-large);
+    }
+
+    & > .project-card-status {
+      padding: var(--space-1) var(--space-2);
+      border-radius: 999px;
+      font-size: var(--font-size-small);
+      font-weight: 700;
+      text-transform: capitalize;
+
+      &.is-active {
+        color: var(--color-success-text);
+        background: var(--color-success-surface);
+      }
+
+      &.is-complete {
+        color: var(--color-text-muted);
+        background: var(--color-surface-muted);
+      }
+
+      &.is-failed {
+        color: var(--color-danger-text);
+        background: var(--color-danger-surface);
+      }
+    }
+  }
+
+  & > .project-card-description {
+    margin: 0;
+    color: var(--color-text-muted);
+  }
+}

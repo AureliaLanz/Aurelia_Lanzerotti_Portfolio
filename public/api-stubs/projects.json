@@ -1,0 +1,20 @@
+[
+  {
+    "id": "charlies-charter",
+    "name": "Charlies Charter",
+    "description": "The Charlies Charter project!",
+    "status": "active"
+  },
+  {
+    "id": "job-fair-map",
+    "name": "Job Fair Map",
+    "description": "Job Fair Map!",
+    "status": "complete"
+  },
+  {
+    "id": "dchq",
+    "name": "DCHQ",
+    "description": "Its almost done",
+    "status": "failed"
+  }
+]

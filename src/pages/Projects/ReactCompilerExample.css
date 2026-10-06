@@ -1,0 +1,13 @@
+.compiler-example {
+  & > h2 {
+    color: var(--color-brand);
+  }
+
+  & > button {
+    margin-block: var(--space-3);
+  }
+
+  & > .compiler-example-summary {
+    margin-block: var(--space-3);
+  }
+}

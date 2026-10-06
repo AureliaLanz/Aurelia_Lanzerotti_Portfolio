@@ -1,0 +1,10 @@
+.not-found-page {
+  display: grid;
+  gap: var(--space-6);
+
+  & > a {
+    justify-self: start;
+    color: var(--color-link);
+    font-weight: 700;
+  }
+}
